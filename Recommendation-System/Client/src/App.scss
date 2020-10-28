@@ -1,0 +1,87 @@
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #e7e7e7;
+}
+
+.content-card {
+  background-color: #f8f9fa;
+  padding: 16px;
+  margin: 36px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #00000021;
+  .head {
+    margin-bottom: 36px;
+  }
+  .dropzone {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px dashed #cecece;
+    margin-bottom: 20px;
+    cursor: pointer;
+    p {
+      margin: 0;
+      color: #898989;
+    }
+  }
+  .center {
+    text-align: center;
+    justify-content: center;
+  }
+  .footer {
+    margin-top: 20px;
+  }
+  .result-card {
+    margin-top: 48px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 16px;
+  }
+  .suggestion {
+    margin-top: 15px;
+    .suggestion-head {
+      font-weight: 600;
+    }
+  }
+  .my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+  .graph-img{
+    img{
+      width: 100%;
+    }
+  }
+  .balls-container{ 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    .ball{
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      // background-color: #898989;
+      margin: 10px 5px;
+    }
+  }
+}
